@@ -41,3 +41,14 @@ INICIO
 
     IMPRIMIR mult(a,b)
 FIN
+
+INICIO
+    FUNCION multiplicacionNumeros(a, b)    
+        DEFINIR resultado = 0;
+        PROCESOFOR (let index = 1; index <= b; index++), ENTONCES
+            PROCESO resultado += a
+        FINPROCESOFOR
+            RETURN resultado
+    FINFUNCION
+    IMPRIMIR multiplicacionNumeros(7, 8)
+FIN
