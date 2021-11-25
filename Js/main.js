@@ -1,6 +1,6 @@
 console.log('hola mundo')
 
-//Multiplicar dos numeros sin usar el simbolo de multiplicar 
+// Multiplicar dos numeros sin usar el simbolo de multiplicar 
 
 function mult(a,b) {
     let resultado = 0;

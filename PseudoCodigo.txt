@@ -1,0 +1,17 @@
+//Programa que compare si un numero es mayor que otro
+
+ingrsar valor 'a'
+leer 'a'
+ingresar valor 'b' 
+leer 'b'
+
+proceso compararNumeros{
+si (a > b) entonces{
+    escribir 'a' es mayor que 'b'
+}en caso de que (a === b) entonces{
+    escribir ambos numeros son iguales 
+}
+si no entonces{
+    escribir 'b' es mayor que 'a' 
+}
+}
